@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 //import Agentlist from "./pages/Agentlist";
-import TeamsCard from "./components/teamscard";
+import TeamsCard from "./components/Agentlist";
 //import Test from "./pages/test";
 function App() {
 const title = 'Valorant app'
