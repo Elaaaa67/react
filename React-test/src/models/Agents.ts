@@ -1,20 +1,26 @@
+
 export default class Agent {
-    id: number;
-    name: string;
-    role: string;
-    image: string;
-    created: Date = new Date();
-    constructor(
-        id: number, 
-        name: string = "", 
-        role: string = "", 
-        image: string = "",
-        created?: Date
-    ) {
-        this.id = id;
-        this.name = name;
-        this.role = role;
-        this.image = image;
-        if (created) this.created = created;
-    }
+  uuid: string;
+  displayName: string;
+  role: string;
+  release_date: Date;
+  description?: string;
+  full_portrait: string | null | undefined;
+  display_name: string | undefined;
+
+  constructor(
+    uuid: string,
+    displayName: string,
+    role: string = "N/A",
+    fullPortrait: string | null = null,
+    release_date?: Date,
+    description?: string
+  ) {
+    this.uuid = uuid;
+    this.displayName = displayName;
+    this.role = role;
+    this.full_portrait = fullPortrait;
+    this.release_date = release_date || new Date();
+    this.description = description;
+  }
 }

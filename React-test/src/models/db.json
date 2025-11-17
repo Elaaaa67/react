@@ -1,0 +1,68 @@
+{
+  "agents": [
+    {
+      "id": "1",
+      "name": "Clove",
+      "role": "Controller",
+      "image": "Clove.webp",
+      "created": "2020-06-01T22:00:00.000Z",
+      "description": "Clove is a strategic controller agent known for her ability to manipulate the battlefield with smokescreens and area denial tools."
+    },
+    {
+      "id": "2",
+      "name": "Reyna",
+      "role": "Duelist",
+      "image": "Reyna.webp",
+      "created": "2021-03-15",
+      "description": "Reyna is a fierce duelist agent who thrives on securing kills and sustaining herself in combat through her vampiric abilities."
+    },
+    {
+      "id": "3",
+      "name": "Gekko",
+      "role": "Initiator",
+      "image": "Gekko.webp",
+      "created": "2022-11-04",
+      "description": "Gekko is an initiator agent who excels at disrupting enemy positions and creating opportunities for his team with his versatile abilities."
+    },
+    {
+      "id": "4",
+      "name": "Omen",
+      "role": "Controller",
+      "image": "Omen.webp",
+      "created": "2022-11-04",
+      "description": "Omen is a mysterious controller agent who uses shadows and teleportation to confuse enemies and control the flow of battle."
+    },
+    {
+      "id": "5",
+      "name": "Vyse",
+      "role": "Sentinel",
+      "image": "Vyse.webp",
+      "created": "2023-04-21",
+      "description": "Vyse is a sentinel agent who specializes in area control and providing support to his teammates."
+    },
+    {
+      "id": "6",
+      "name": "Jett",
+      "role": "Duelist",
+      "image": "Jett.webp",
+      "created": "2020-06-02",
+      "description": "Jett is a fast and agile duelist agent who excels at flanking and taking out enemies with her swift movements."
+    },
+    {
+      "id": "7",
+      "name": "Chamber",
+      "role": "Sentinel",
+      "image": "Chamber.webp",
+      "created": "2021-11-21",
+      "description": "Chamber is a sentinel agent who combines precision shooting with area control to protect his team."
+    },
+    {
+      "id": "8",
+      "name": "Veto",
+      "role": "Initiator",
+      "image": "Veto.webp",
+      "created": "2025-10-20T07:54:13.191Z",
+      "description": "Veto is an initiator agent known for his ability to disrupt enemy strategies and create openings for his team."
+    }
+  ]
+}
